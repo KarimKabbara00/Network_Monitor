@@ -14,4 +14,4 @@ There are three ways to run this scanner:
 3. ./Network_Monitor x y\
   Scans a range of IPs where x is the lower limit and y is the upper limit.
 
-Network Monitor can be paired with Cron Scheduler to automate the scanning of IPs. 
+Network Monitor can be paired with Cron Scheduler for automation. 
