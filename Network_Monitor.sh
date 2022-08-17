@@ -4,6 +4,7 @@ logfile='/home/kali/Desktop/logfile.txt'
 `truncate -s 0 logfile.txt`										# clear log file (allows for automation)
 
 if [ $# -eq 0 ]; then
+
 	for i in $(seq 2 254) 										# for loop 1 through 255
 	do 												
 		p="192.168.1.$i"									# current ip
