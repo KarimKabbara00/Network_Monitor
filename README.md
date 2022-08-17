@@ -1,8 +1,10 @@
 # Network_Monitor
 Scan IPs and Ports on a Network\
 \
-Network Monitor scans a given IP or set of IPs and retrieves any found open ports. The results are stored in a logfile (path: ) There are three ways to run this scanner:
+Network Monitor scans a given IP or set of IPs and retrieves any found open ports.\
+The results are stored in a logfile. (path: /home/kali/Desktop/logfile.txt) 
 
+There are three ways to run this scanner:
 1. ./Network_Monitor\
   Scans all the IPs in the subnet. 192.168.1.2-254
   
